@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --main_color:rgb(146, 22, 130);
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.658)), url(img/bg3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid black;
+    background-color: rgba(240, 255, 255, 0.486);
+}
+
+header img{
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+header img:hover{
+    transform: translateX(-20px);
+}
+
+nav a{
+    margin: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--main_color);
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: rgb(255, 255, 255);
+}
+
+section div a.btn{
+    transition: 0.4s;
+    background-color: var(--main_color); 
+    padding: 10px; 
+    text-decoration: none; 
+    color: white; 
+    border-radius: 5px;
+}
+
+section div a.btn:hover{
+    background-color: white;
+    color: var(--main_color);
+    border: 1px solid var(--main_color);
+}
+
+.btn_achat{
+    transition: 0.4s;
+    background-color: var(--main_color); 
+    padding: 10px; 
+    text-decoration: none; 
+    color: white; 
+    border-radius: 5px;
+}
+
+.btn_achat:hover{
+    background-color: white;
+    color: var(--main_color);
+    border: 1px solid var(--main_color);
+}
+
+section .col-4 img{
+    border-radius: 5px;
+}
+
+input[type='submit']{
+    transition: 0.4s;
+    background-color: var(--main_color); 
+    padding: 10px; 
+    text-decoration: none; 
+    color: white; 
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+input[type='submit']:hover{
+    background-color: white;
+    color: var(--main_color);
+    border: 1px solid var(--main_color);
+}
